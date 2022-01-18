@@ -4,6 +4,8 @@ A Spotify clone built using Next.js, TailwindCSS, React hooks, and the Spotify A
 
 Built following along a YouTube tutorial, but also including some of my own improvements and bug fixes.
 
+![Screenshot](./public/images/screenshot.png)
+
 ## Setup
 
 This app uses the Spotify API which acts more as a remote for an active device running Spotify.
