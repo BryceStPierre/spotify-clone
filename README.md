@@ -11,10 +11,11 @@ This app uses the Spotify API which acts more as a remote for an active device r
 A Spotify account is required, as well as a device running the Spotify app.
 
 1. Create an application at [Spotify for Developers](https://developer.spotify.com/) and copy your Client ID and Client Secret.
-2. Clone the repo.
-3. Copy the `.env.example` to `.env.local`.
-4. Fill in the environment variables.
-5. Bump some tunes! 🎧
+2. Change the `Redirect URIs` setting for the application to include `http://localhost:3000/api/auth/callback/spotify`.
+3. Clone the repo.
+4. Copy the `.env.example` to `.env.local`.
+5. Fill in the environment variables.
+6. Bump some tunes! 🎧
 
 ## Future Improvements
 
